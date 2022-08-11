@@ -6,7 +6,7 @@ import pickle
 
 app = Flask(__name__)
 dataset= pd.read_csv('Churn_Modelling.csv')
-model1            = pickle.load(open('project7_DecisionTree.pkl','rb'))
+model1            = pickle.load(open('projecy7_DecisionTree.pkl','rb'))
 model2            = pickle.load(open('project7_KNN.pkl','rb'))
 model3            = pickle.load(open('project7_kernalsvm.pkl','rb'))
 model4            = pickle.load(open('project7_randomforest.pkl','rb'))
